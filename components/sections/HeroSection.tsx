@@ -45,14 +45,14 @@ export function HeroSection() {
         <div className="absolute top-40 right-20 w-72 h-72 bg-emerald-300 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
         <div className="absolute bottom-20 left-40 w-72 h-72 bg-blue-400 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-4000"></div>
       </motion.div> */}
-      <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 text-center m-10 mt-30 px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 0.8 }}
 
         >
-          <div className="flex justify-center m-5 mt-10 items-center">
+          <div className="flex justify-center m-[30px] mt-[80px] items-center">
           <ProfileCard
             name="Rifko Akbar"
             title="Student At Sriwijaya University"
