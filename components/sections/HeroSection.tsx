@@ -52,7 +52,7 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
 
         >
-          <div className="flex justify-center p-5 items-center">
+          <div className="flex justify-center m-5 mt-10 items-center">
           <ProfileCard
             name="Rifko Akbar"
             title="Student At Sriwijaya University"
