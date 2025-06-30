@@ -294,13 +294,13 @@ export function SkillsSection() {
             {[
               {
                 category: "Frontend",
-                skills: ["HTML", "CSS", "JavaScript", "React", "Tailwind CSS", "Bootstrap"],
+                skills: ["HTML", "CSS", "JavaScript", "Tailwind CSS", "Bootstrap"],
                 icon: "🎨",
                 color: "from-blue-400 to-emerald-400",
               },
               {
-                category: "Backend",
-                skills: ["PHP", "Laravel", "Java", "MySQL", "PostgreSQL"],
+                category: "Data",
+                skills: ["DBeaver", "Streamlit", "SQL", "MySQL", "PostgreSQL"],
                 icon: "⚙️",
                 color: "from-blue-500 to-emerald-500",
               },
@@ -312,7 +312,7 @@ export function SkillsSection() {
               },
               {
                 category: "Other",
-                skills: ["UI/UX Design", "Database Design", "VAPT", "Project Management"],
+                skills: ["UI/UX Design", "Database Design", "VAPT", "Reverse Engineering", "Project Management"],
                 icon: "💡",
                 color: "from-blue-400 to-emerald-500",
               },

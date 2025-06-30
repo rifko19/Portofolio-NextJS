@@ -1,8 +1,8 @@
 "use client"
 
-import { motion } from "framer-motion"
-import { Mail, Phone, Linkedin, Github } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
+import { motion } from "framer-motion"
+import { Github, Linkedin, Mail, Phone } from "lucide-react"
 
 export function ContactSection() {
   const fadeInUp = {
@@ -31,7 +31,7 @@ export function ContactSection() {
       icon: Phone,
       label: "Phone",
       value: "(+62) 821 8168 2461",
-      href: "tel:+6282181682461",
+      href: "https://wa.me/082181682461",
       color: "from-green-500 to-emerald-500",
     },
     {
