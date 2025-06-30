@@ -1,10 +1,10 @@
 "use client"
 
-import { useState, useRef, useEffect } from "react"
-import { motion } from "framer-motion"
-import { MapPin, Calendar } from "lucide-react"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { motion } from "framer-motion"
+import { Calendar, MapPin } from "lucide-react"
+import { useEffect, useRef, useState } from "react"
 
 export function ExperienceSection() {
   const [activeIndex, setActiveIndex] = useState(0)
@@ -244,12 +244,12 @@ export function ExperienceSection() {
             My professional journey in technology and development
           </p>
         </motion.div>
-
+        
         {/* Horizontal Scrolling Cards */}
         <div className="relative">
           <div
             ref={scrollRef}
-            className="flex gap-6 overflow-x-auto scrollbar-hide pb-8 px-4 snap-x snap-mandatory"
+            className="flex gap-6 overflow-x-auto scrollbar-hide pb-8 px-4"
             style={{
               scrollbarWidth: "none",
               msOverflowStyle: "none",

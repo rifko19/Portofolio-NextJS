@@ -5,7 +5,6 @@ import { motion, useScroll, useTransform } from "framer-motion"
 import { ChevronDown, Code, ExternalLink } from "lucide-react"
 import ProfileCard from "../reactbits/ProfileCard/ProfileCard"
 import SplashCursor from "../reactbits/SplashCursor/SplashCursor"
-import Threads from "../reactbits/Threads/Threads"
 import Waves from "../reactbits/Waves/Waves"
 
 export function HeroSection() {
@@ -53,7 +52,7 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
 
         >
-          <div className="flex justify-center items-center">
+          <div className="flex justify-center p-5 items-center">
           <ProfileCard
             name="Rifko Akbar"
             title="Student At Sriwijaya University"
