@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button"
 import { motion, useScroll, useTransform } from "framer-motion"
-import { ChevronDown, Code, ExternalLink } from "lucide-react"
+import { ChevronDown, Download, ExternalLink } from "lucide-react"
 import ProfileCard from "../reactbits/ProfileCard/ProfileCard"
 import SplashCursor from "../reactbits/SplashCursor/SplashCursor"
 import Waves from "../reactbits/Waves/Waves"
@@ -101,10 +101,10 @@ export function HeroSection() {
               <ExternalLink className="w-4 h-4" />
             </a>
           </Button>
-          <Button variant="outline" size="lg" className="border-blue-500 text-blue-500 hover:bg-blue-50">
-            <a href="#projects" className="flex items-center gap-2">
-              View Projects
-              <Code className="w-4 h-4" />
+          <Button variant="outline" size="lg" className="bg-blue-500 border-blue-950 text-black transition-all duration-300 ease-in-out hover:bg-blue-600 hover:text-white hover:shadow-lg hover:scale-105">
+            <a href="\Rifko-CV.pdf"  download className="flex items-center gap-2">
+              Download CV
+              <Download className="w-4 h-4" />
             </a>
           </Button>
         </motion.div>
